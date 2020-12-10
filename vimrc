@@ -259,7 +259,7 @@ let g:tagbar_type_go = {
 "==============================================================================
 "  nerdtree-git-plugin 插件
 "==============================================================================
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
 			\ "Modified"  : "✹",
 			\ "Staged"    : "✚",
 			\ "Untracked" : "✭",
@@ -272,7 +272,7 @@ let g:NERDTreeIndicatorMapCustom = {
 			\ "Unknown"   : "?"
 			\ }
 
-let g:NERDTreeShowIgnoredStatus = 1
+let g:NERDTreeGitStatusShowIgnored = 1
 nmap <Leader>pwd :NERDTreeCWD<CR>
 
 "==============================================================================
